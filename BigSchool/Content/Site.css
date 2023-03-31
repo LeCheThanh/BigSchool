@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: rgba(78, 78, 19, 0.5)
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,10 +23,9 @@ select,
 textarea {
     max-width: 280px;
 }
-.navbar-inverse
-{
-    background-color: #d41d50;
-    border-color: #fbf6f6;
+.navbar-inverse {
+    background-color: rgba(78, 153, 19, 0.6);
+    border-color: rgba(78, 153, 19, 1);
 }
 .navbar-inverse .navbar-nav > li > a
 {
@@ -45,14 +45,13 @@ textarea {
     position: relative;
     margin-bottom:30px;
 }
-.course > li .date
-{
-    text-align:center;
-    background-color:#d41d50;
-    color:white;
-    width: 60px;
-    border-radius:8px;
-}
+    .course > li .date {
+        text-align: center;
+        background-color: rgba(78, 153, 19, 0.6);
+        color: white;
+        width: 60px;
+        border-radius: 8px;
+    }
 .course > li .details
 {
     position:absolute;
